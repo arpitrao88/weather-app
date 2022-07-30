@@ -16,7 +16,6 @@ app.set('view engine', 'hbs')
 app.set('views',templatePath)
 hbs.registerPartials(partialsPath)
 
-console.log('Git commit');
 
 
 app.use(express.static('public'))
